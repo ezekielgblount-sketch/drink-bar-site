@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bar-ink: #0b0806;
+  --color-bar-amber: #e8a34a;
+  --color-bar-lime: #b6e05a;
+  --color-bar-cream: #f4ead8;
+  --font-display: "Fraunces", Georgia, serif;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--color-bar-ink);
+  color: var(--color-bar-cream);
+  font-family: system-ui, sans-serif;
+}
+
+/* Lenis smooth-scroll helpers */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}

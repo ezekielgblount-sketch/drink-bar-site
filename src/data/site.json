@@ -1,0 +1,8 @@
+{
+  "barName": "[Your Bar Name]",
+  "tagline": "Fresh fruit. Real agave. Shaken to order.",
+  "address": "[Street address, City, State]",
+  "hours": ["[Mon–Thu  4pm – 12am]", "[Fri–Sat  4pm – 2am]", "[Sun  Closed]"],
+  "instagramHandle": "@yourbar",
+  "instagramUrl": ""
+}

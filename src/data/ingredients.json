@@ -1,0 +1,20 @@
+[
+  {
+    "id": "agave-nectar",
+    "name": "Agave nectar",
+    "about": "A honey-like sweetener made from agave plant juice; sweeter than sugar.",
+    "sources": [{ "label": "Wikipedia: Agave syrup", "url": "https://en.wikipedia.org/wiki/Agave_syrup" }]
+  },
+  {
+    "id": "lime",
+    "name": "Fresh lime",
+    "about": "The Persian lime, the most widely grown commercial lime; much of the US supply comes from Mexico.",
+    "sources": [{ "label": "Wikipedia: Persian lime", "url": "https://en.wikipedia.org/wiki/Persian_lime" }]
+  },
+  {
+    "id": "grapefruit-soda",
+    "name": "Grapefruit soda",
+    "about": "In Mexico a Paloma is commonly made with Squirt or Jarritos grapefruit soda.",
+    "sources": [{ "label": "Wikipedia: Paloma", "url": "https://en.wikipedia.org/wiki/Paloma_(cocktail)" }]
+  }
+]

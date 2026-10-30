@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Rocks glass of mango margarita with a chili-salt rim -->
+  <rect width="64" height="64" rx="14" fill="#0b0806"/>
+  <path d="M17 18 L21 52 Q22 55 25 55 L39 55 Q42 55 43 52 L47 18 Z" fill="#f4ead8" fill-opacity="0.18"/>
+  <path d="M19.4 32 L21.6 51 Q22.2 53 24.6 53 L39.4 53 Q41.8 53 42.4 51 L44.6 32 Z" fill="#f6a623"/>
+  <rect x="15" y="15.5" width="34" height="4" rx="2" fill="#cf4f2b"/>
+  <path d="M40 9 Q50 9 52 17 L42 17 Z" fill="#f8a428"/>
+</svg>

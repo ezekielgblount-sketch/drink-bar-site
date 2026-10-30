@@ -1,0 +1,244 @@
+[
+  {
+    "id": "sol-de-mango",
+    "name": "Sol de Mango",
+    "signature": true,
+    "story": "Real ripe mango, fresh-squeezed lime, 100% agave tequila. Shaken to order, never canned.",
+    "glass": "Rocks, chili-lime salt rim",
+    "liquid": "#f6a623",
+    "rim": "chili",
+    "ingredients": [
+      {
+        "item": "Blanco tequila (100% agave)",
+        "qty": 2,
+        "unit": "oz",
+        "ref": "espolon-blanco"
+      },
+      {
+        "item": "Ripe mango purée",
+        "qty": 1.5,
+        "unit": "oz"
+      },
+      {
+        "item": "Fresh lime juice",
+        "qty": 0.75,
+        "unit": "oz",
+        "ref": "lime"
+      },
+      {
+        "item": "Cointreau",
+        "qty": 0.75,
+        "unit": "oz",
+        "ref": "cointreau"
+      },
+      {
+        "item": "Agave nectar",
+        "qty": 0.25,
+        "unit": "oz",
+        "note": "to taste",
+        "ref": "agave-nectar"
+      },
+      {
+        "item": "Chili-lime salt + mango slice",
+        "qty": null,
+        "unit": null,
+        "note": "garnish"
+      }
+    ],
+    "steps": [
+      "Rim a rocks glass with chili-lime salt and fill with ice.",
+      "Add tequila, mango purée, lime, Cointreau and agave to a shaker with ice.",
+      "Shake hard for 12–15 seconds until the tin is frosty.",
+      "Strain over fresh ice and garnish with a mango slice."
+    ],
+    "sources": [],
+    "glassType": "rocks",
+    "garnish": "mango",
+    "house": true
+  },
+  {
+    "id": "classic-margarita",
+    "name": "Classic Margarita",
+    "story": "Tequila, orange liqueur and lime. The three-ingredient standard every bar is judged by; a half salt rim is the classic touch.",
+    "glass": "Coupe or rocks, salt rim",
+    "liquid": "#e9e7a0",
+    "rim": "salt",
+    "ingredients": [
+      {
+        "item": "Blanco tequila",
+        "qty": 2,
+        "unit": "oz",
+        "ref": "espolon-blanco"
+      },
+      {
+        "item": "Orange liqueur",
+        "qty": 1,
+        "unit": "oz",
+        "ref": "cointreau"
+      },
+      {
+        "item": "Fresh lime juice",
+        "qty": 1,
+        "unit": "oz",
+        "ref": "lime"
+      },
+      {
+        "item": "Salt",
+        "qty": null,
+        "unit": null,
+        "note": "rim"
+      }
+    ],
+    "steps": [
+      "Salt half the rim of the glass.",
+      "Shake tequila, orange liqueur and lime with ice.",
+      "Strain into the glass, over fresh ice for rocks."
+    ],
+    "sources": [
+      {
+        "label": "IBA official Margarita: 50 ml tequila, 20 ml triple sec, 15 ml lime (our house pour is a little more citrus-forward)",
+        "url": "https://iba-world.com/iba-cocktail/margarita"
+      }
+    ],
+    "glassType": "coupe",
+    "garnish": "lime"
+  },
+  {
+    "id": "tommys-margarita",
+    "name": "Tommy's Margarita",
+    "story": "Created by Julio Bermejo at his family's Tommy's Mexican Restaurant in San Francisco around 1990. Agave nectar replaces orange liqueur, so the tequila leads.",
+    "glass": "Rocks",
+    "liquid": "#ecd98a",
+    "rim": null,
+    "ingredients": [
+      {
+        "item": "Blanco tequila",
+        "qty": 2,
+        "unit": "oz",
+        "ref": "espolon-blanco"
+      },
+      {
+        "item": "Fresh lime juice",
+        "qty": 1,
+        "unit": "oz",
+        "ref": "lime"
+      },
+      {
+        "item": "Agave nectar",
+        "qty": 0.5,
+        "unit": "oz",
+        "ref": "agave-nectar"
+      }
+    ],
+    "steps": [
+      "Shake tequila, lime and agave nectar with ice.",
+      "Strain over fresh ice in a rocks glass."
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Tommy's margarita",
+        "url": "https://en.wikipedia.org/wiki/Tommy%27s_margarita"
+      },
+      {
+        "label": "Punch: Tommy's Margarita recipe",
+        "url": "https://punchdrink.com/recipes/tommys-margarita/"
+      }
+    ],
+    "glassType": "rocks",
+    "garnish": "lime"
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "story": "A tequila highball with lime and grapefruit soda. The name means dove in Spanish; in Mexico it's often made with Squirt or Jarritos.",
+    "glass": "Highball, salt rim",
+    "liquid": "#f2b8a6",
+    "rim": "salt",
+    "ingredients": [
+      {
+        "item": "Blanco tequila",
+        "qty": 2,
+        "unit": "oz",
+        "ref": "espolon-blanco"
+      },
+      {
+        "item": "Fresh lime juice",
+        "qty": 0.5,
+        "unit": "oz",
+        "ref": "lime"
+      },
+      {
+        "item": "Grapefruit soda",
+        "qty": 4,
+        "unit": "oz",
+        "ref": "grapefruit-soda"
+      },
+      {
+        "item": "Pinch of salt",
+        "qty": null,
+        "unit": null
+      }
+    ],
+    "steps": [
+      "Salt the rim of a highball glass and fill with ice.",
+      "Add tequila, lime and a pinch of salt.",
+      "Top with grapefruit soda and stir gently."
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Paloma",
+        "url": "https://en.wikipedia.org/wiki/Paloma_(cocktail)"
+      }
+    ],
+    "glassType": "highball",
+    "garnish": "grapefruit",
+    "fizz": true
+  },
+  {
+    "id": "ranch-water",
+    "name": "Ranch Water",
+    "story": "A Texas favorite: tequila, lime and a tall pour of Topo Chico. Legend credits West Texas ranchers; an Austin chef says he put it on his menu in 1998.",
+    "glass": "Highball",
+    "liquid": "#d8efe0",
+    "rim": null,
+    "ingredients": [
+      {
+        "item": "Blanco tequila",
+        "qty": 2,
+        "unit": "oz",
+        "ref": "espolon-blanco"
+      },
+      {
+        "item": "Fresh lime juice",
+        "qty": 0.75,
+        "unit": "oz",
+        "ref": "lime"
+      },
+      {
+        "item": "Topo Chico mineral water",
+        "qty": 5,
+        "unit": "oz",
+        "ref": "topo-chico"
+      }
+    ],
+    "steps": [
+      "Fill a highball glass with ice.",
+      "Add tequila and lime.",
+      "Top with mineral water and give it one stir."
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia: Ranch water",
+        "url": "https://en.wikipedia.org/wiki/Ranch_water"
+      },
+      {
+        "label": "Punch: How Ranch Water became the unofficial cocktail of West Texas",
+        "url": "https://punchdrink.com/articles/how-ranch-water-recipe-became-the-unofficial-cocktail-of-west-texas/"
+      }
+    ],
+    "glassType": "highball",
+    "garnish": "lime",
+    "fizz": true,
+    "clear": true
+  }
+]

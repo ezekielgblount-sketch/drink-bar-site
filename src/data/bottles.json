@@ -1,0 +1,139 @@
+[
+  {
+    "id": "espolon-blanco",
+    "name": "Espolòn Blanco",
+    "type": "Blanco tequila, 100% blue Weber agave",
+    "abv": "40%",
+    "maker": "Destiladora San Nicolás (NOM 1440), owned by Gruppo Campari",
+    "origin": "Los Altos highlands, Jalisco, Mexico",
+    "price": "About $22–$29 (750 ml, US retail)",
+    "flavor": "Peppery agave, vanilla, a hint of pineapple",
+    "color": "#cfe3ee",
+    "height": 1,
+    "shape": "tall",
+    "glass": "#e6f1f6",
+    "liquid": null,
+    "sources": [
+      {
+        "label": "Difford's Guide: Espolòn Blanco",
+        "url": "https://www.diffordsguide.com/beer-wine-spirits/30/espoln-blanco"
+      },
+      {
+        "label": "Total Wine: $21.99 (750 ml)",
+        "url": "https://www.totalwine.com/spirits/tequila/blancosilver/espolon-blanco-tequila/p/96445750"
+      },
+      {
+        "label": "Wine-Searcher: US average $29 before tax",
+        "url": "https://www.wine-searcher.com/find/espolon+tequila+blanco+jalisco+mexico"
+      }
+    ]
+  },
+  {
+    "id": "cointreau",
+    "name": "Cointreau",
+    "type": "Orange liqueur (triple sec)",
+    "abv": "40%",
+    "maker": "Rémy Cointreau (founded by Adolphe and Édouard-Jean Cointreau, 1849)",
+    "origin": "Saint-Barthélemy-d'Anjou, near Angers, France",
+    "price": "About $38–$39 (750 ml, US retail)",
+    "flavor": "Bright orange and mandarin peel, warm spice, dry finish",
+    "color": "#e7a25a",
+    "height": 0.9,
+    "shape": "round",
+    "glass": "#f6e7d2",
+    "liquid": null,
+    "sources": [
+      {
+        "label": "Wikipedia: Cointreau",
+        "url": "https://en.wikipedia.org/wiki/Cointreau"
+      },
+      {
+        "label": "PJ Wine: $38.99 (750 ml)",
+        "url": "https://pjwine.com/collections/spirits/france"
+      },
+      {
+        "label": "Cellar.com: $37.99 (750 ml)",
+        "url": "https://cellar.com/products/cointreau-750ml"
+      },
+      {
+        "label": "The Liquor Barn: tasting notes",
+        "url": "https://theliquorbarn.com/collections/spirits/products/cointreau-liqueur-750ml"
+      }
+    ]
+  },
+  {
+    "id": "gran-gala",
+    "name": "Gran Gala",
+    "type": "Orange liqueur on an Italian brandy base",
+    "abv": "40%",
+    "maker": "Sazerac Company (brand founded by Lionello Stock, Trieste, 1884)",
+    "origin": "Italian aged-brandy base; brand from Trieste, Italy",
+    "price": null,
+    "flavor": "Orange oil with brandy wood and chocolate-orange notes",
+    "color": "#d9822b",
+    "height": 0.95,
+    "shape": "tall",
+    "glass": "#ffffff",
+    "liquid": "#d9701c",
+    "sources": [
+      {
+        "label": "Difford's Guide: Gran Gala",
+        "url": "https://www.diffordsguide.com/beer-wine-spirits/1846/stock-gran-gala-triple-sec"
+      },
+      {
+        "label": "Drinks International: Stock sells Gran Gala to Sazerac",
+        "url": "https://drinksint.com/news/fullstory.php/aid/3371/US:_Stock_sells_Gran_Gala_to_Sazerac.html"
+      }
+    ]
+  },
+  {
+    "id": "dekuyper-triple-sec",
+    "name": "DeKuyper Triple Sec",
+    "type": "Triple sec (orange liqueur)",
+    "abv": "15% or 24% (varies by bottling, check the label)",
+    "maker": "John DeKuyper & Son",
+    "origin": "United States",
+    "price": "About $9–$13 (750 ml, US retail)",
+    "flavor": null,
+    "color": "#f2efe4",
+    "height": 0.85,
+    "shape": "round",
+    "glass": "#ffffff",
+    "liquid": null,
+    "sources": [
+      {
+        "label": "Lucky Supermarkets: 24% ABV (48 proof), $12.99 (750 ml)",
+        "url": "https://shop.luckysupermarkets.com/store/lucky-supermarkets/products/193514-dekuyper-triple-sec-liqueur-750-ml"
+      },
+      {
+        "label": "Hannaford: 30 proof (15%)",
+        "url": "https://hannaford.com/groceries/product/dekuyper-triple-sec-liqueur-750-ml-btl/219963"
+      },
+      {
+        "label": "Haskell's: $8.99 (750 ml)",
+        "url": "https://haskells.com/dekuyper-triple-sec-750ml/"
+      }
+    ]
+  },
+  {
+    "id": "topo-chico",
+    "name": "Topo Chico",
+    "type": "Sparkling mineral water",
+    "abv": "0%",
+    "maker": "The Coca-Cola Company (bought the brand in 2017)",
+    "origin": "Monterrey, Mexico (bottled there since 1895)",
+    "price": null,
+    "flavor": "Crisp and mineral; carbonated at the source and with added CO₂",
+    "color": "#bfe6d0",
+    "height": 0.7,
+    "shape": "stubby",
+    "glass": "#d6eee0",
+    "liquid": null,
+    "sources": [
+      {
+        "label": "Wikipedia: Topo Chico",
+        "url": "https://en.wikipedia.org/wiki/Topo_Chico"
+      }
+    ]
+  }
+]
