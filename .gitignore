@@ -26,3 +26,11 @@ reference/
 *.njsproj
 *.sln
 *.sw?
+
+# Blender working files (big): kept on this PC only
+blender/assets/
+blender/renders/
+blender/*.blend
+blender/*.blend1
+blender/scripts/*.backup.py
+blender/scripts/debug_*.py

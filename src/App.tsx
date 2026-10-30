@@ -1,4 +1,3 @@
-import { lazy, Suspense } from 'react'
 import { MotionConfig } from 'motion/react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -14,11 +13,9 @@ import { BottleOverlay } from './components/BottleOverlay'
 import { Recipes } from './components/Recipes'
 import { Visit, Footer } from './components/Visit'
 import { StillDrinks } from './components/StillDrinks'
+import { FrameDrinks } from './components/FrameDrinks'
 
 gsap.registerPlugin(ScrollTrigger, useGSAP)
-
-// The 3D scene is a separate download, so the words appear first.
-const DrinkScene = lazy(() => import('./components/DrinkScene'))
 
 export default function App() {
   const stills = useBar((s) => s.stills)
@@ -62,13 +59,7 @@ export default function App() {
     // "user" = pop-outs and transitions follow the visitor's reduced-motion setting.
     <MotionConfig reducedMotion="user">
       <div id="scene" className="pointer-events-none fixed inset-0 z-0" aria-hidden>
-        {stills ? (
-          <StillDrinks />
-        ) : (
-          <Suspense fallback={null}>
-            <DrinkScene />
-          </Suspense>
-        )}
+        {stills ? <StillDrinks /> : <FrameDrinks />}
       </div>
       <main>
         <Hero />

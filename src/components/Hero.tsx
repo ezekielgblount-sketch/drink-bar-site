@@ -2,7 +2,6 @@ import { useRef } from 'react'
 import { gsap } from 'gsap'
 import { useGSAP } from '@gsap/react'
 import { drinks, site } from '../data'
-import { sceneReady, scrollState } from '../lib/state'
 import { reducedMotion } from '../lib/motion'
 
 export function Hero() {
@@ -13,19 +12,6 @@ export function Hero() {
     () => {
       if (reducedMotion) return // text and glass are simply shown, no entrance
       gsap.from('.hero-line', { y: 40, autoAlpha: 0, stagger: 0.12, duration: 0.9, ease: 'power2.out', delay: 0.3 })
-      // The empty glass rises once the 3D scene has loaded (or after 3s, whichever is first).
-      // Scrolling then pours the drink into it (see DrinkSection).
-      const pour = gsap.timeline({ paused: true }).to(scrollState, { rise: 1, duration: 1.8, ease: 'power3.out' })
-      let alive = true
-      const start = () => {
-        if (alive && pour.paused()) pour.play()
-      }
-      sceneReady.then(start)
-      const fallback = setTimeout(start, 3000)
-      return () => {
-        alive = false
-        clearTimeout(fallback)
-      }
     },
     { scope: root },
   )
